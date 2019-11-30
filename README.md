@@ -11,6 +11,17 @@ and providing you with a [templating system](#templating-system) to provide with
 and world numbers with a single or a few templates.
 We encourage you to use this system but you may also use your own code to generate the country-specific markdown reports. 
 
+## Typical workflow
+
+First of all, you need to contact the isipedia editorial team and agree upon a generic article structure (where all numbers and other variable entries are replaced by <XY>). 
+In a second step, you might work on the data crunching and template writing to generate country reports with actual numbers.
+
+- clone this repository or download the latest tar-archive
+- edit the config file, data script and report template for your study
+- run the test script on one example country (and/or world) and fix any issues that arise
+- run the main script on all countries (or possibly skip to next step)
+- submit your author directory to the isipedia editorial team and provide feedback until the data is publication ready
+- proof-read the result on isipedia.org 
 
 ## Technical requirements for a study: the data cube structure
 
