@@ -43,6 +43,7 @@ The directories contain other data files that may be invoked by the markdown fil
 
 - The configuration file config.json has the following structure:
  
+    ```
     {
       "name": "Drought",
       "topics": [ "Extreme events", "Water" ],
@@ -67,9 +68,9 @@ The directories contain other data files that may be invoked by the markdown fil
         }
       ]
     }
+    ```
 
-
-Note that could be written in a more concise manner in equivalemnt yaml format:
+TODO: Note that could be written in a more concise manner in equivalemnt yaml format:
 
     name: Drought
     topics: 
