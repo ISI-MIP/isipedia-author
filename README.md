@@ -139,6 +139,23 @@ See details in the [cube manual](#cube-manual).
 
 Most of what is described here can be found in greater details in the [cube manual](https://github.com/ISI-MIP/isipedia-author/raw/master/docs/data-cube-manual-3.1.0.pdf).
 
+## Data script
+
+The data script (TODO: make example, provide details about bash/python etc..) is intended to crunch country- and world- level data from global data. You may refer to [isipedia library](#isipedia-library) for information about helper tools provided by isipedia.
+
+## Isipedia library
+
+This is a python library that streamlines some of the most common tasks:
+
+- average data over country masks
+- aggregate yearly time series into 20-year time-slices bins
+- aggregate yearly time series into temperature bins (warming levels)
+- aggregate data as % of land and % of population, like the extremes' paper (existing examples: drought and river-flood)
+
+Note: 
+- the library is currently under development and the above examples may not be available yet
+- if you as an author wish to add more tools and functionalities, please submit an issue or contact the editorial team.
+
 ## Templating system 
 
 This system is based on jinja2 and allows you to generate country-specific reports from one generic template.
