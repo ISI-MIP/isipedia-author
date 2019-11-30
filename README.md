@@ -13,7 +13,7 @@ We encourage you to use this system but you may also use your own code to genera
 
 ## Typical workflow
 
-First of all, you need to contact the isipedia editorial team and agree upon a generic article structure (where all numbers and other variable entries are replaced by <XY>). 
+First of all, you need to contact the isipedia editorial team and agree upon a generic article structure (where all numbers and other variable entries are replaced by `<XY>`). 
 In a second step, you might work on the data crunching and template writing to generate country reports with actual numbers.
 
 - clone this repository or download the latest tar-archive
