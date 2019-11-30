@@ -39,7 +39,7 @@ The directories contain other data files that may be invoked by the markdown fil
 "drought" on this example is one of multiple indicators on the isipedia [data cube](#cube-manual).
 
 
-## Config file
+### Config file
 
 - The configuration file config.json has the following structure:
  
