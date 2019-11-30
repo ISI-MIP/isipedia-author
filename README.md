@@ -190,3 +190,7 @@ The syntax is based on [jinja2 templates](http://jinja.palletsprojects.com/en/2.
 One useful pattern might be the `{%if ...%}...{%else%}...{%endif%}` clause, for instance:
 
    The variable is projected to `{%if temp_var.get(4) > temp_var.get(2) %}`increase`{%else%}`decrease`{%endif%}` as global mean temperature raises from 2 to 4 degrees Celsius.
+
+## Pre-rendering
+
+The markdown reports can be pre-rendered locally before there are moved onto the ISIpedia server.
