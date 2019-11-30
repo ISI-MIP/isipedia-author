@@ -126,8 +126,7 @@ See details in the [cube manual](#cube-manual).
 
 ## Cube manual
 
-Most of what is described here can be found in greater details in the [cube manual](docs/data-cube-manual-3.1.0.pdf).
-
+Most of what is described here can be found in greater details in the [cube manual](https://github.com/ISI-MIP/isipedia-author/raw/master/docs/data-cube-manual-3.1.0.pdf).
 
 ## Templating system 
 
