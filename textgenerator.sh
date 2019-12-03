@@ -1,1 +1,1 @@
-python -m isipedia.textgenerator --indicators drought --templates-dir templates
+python -m isipedia.textgenerator drought --templates-dir templates

@@ -20,5 +20,8 @@
         }
       }
     }
-  ]
+  ],
+  "data-script": null,
+  "text-generator": null,
+  "install-script": null
 }
