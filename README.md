@@ -23,6 +23,15 @@ In a second step, you might work on the data crunching and template writing to g
 - submit your author directory to the isipedia editorial team and provide feedback until the data is publication ready
 - proof-read the result on isipedia.org 
 
+## Installation
+
+- Dependency: [isipedia-library](https://github.com/ISI-MIP/isipedia-library)
+    - git clone https://github.com/ISI-MIP/isipedia-library && cd isipedia-library && python setup.py install
+    - TODO: pip install via pypi or tarball
+
+- Clone this repo or download ZIP (no install needed for this repo)
+
+
 ## Technical requirements for a study: the data cube structure
 
 Let us assume the study indicator is called 'drought', with categories 'present-days' and 'future-projections'. 
