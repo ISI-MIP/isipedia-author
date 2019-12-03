@@ -90,26 +90,6 @@ The directories contain other data files that may be invoked by the markdown fil
     }
     ```
 
-TODO: Note that could be written in a more concise manner in equivalemnt yaml format:
-
-    name: Drought
-    topics: 
-        - Extreme events
-        - Water
-    study-types:
-      - directory: future-projections
-      - name: Future Projections
-      - description: projections of Earth's possible futures under climate change
-      - ranking-files: 
-        - land-abs-temp: 
-            - direction: desc
-        - land-abs-time:
-            - direction: desc
-        - pop-abs-temp:
-            - direction: desc
-        - pop-abs-time:
-            - direction: desc
-
 ## Markdown format
 
 They may include typical markdown commands (e.g. insert figure) and 
