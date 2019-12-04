@@ -43,11 +43,16 @@ The following directory structure is required to be technically displayed on the
             AFG/
                 drought-AFG.md
                 ranking-data_AFG.json
-                other-ranking-data_AFG.json
+                line-plot-data_AFG.json
                 ... (other files that may be needed by drought-AFG.md, such as figures to be inserted)
             world/
                 drought-world.md
-                ... 
+                ...
+                maps/   (optional, special to "world")
+                    line-plot-data/  
+                        all_IPSL-CM5A-LR_WaterGAP2_0.5.csv   
+                        ...
+                        
             ... (other countries)
         present-days/
             ... (same structure as future-projections)
@@ -101,6 +106,8 @@ Markdown commands are described in the [cube manual](#cube-manual).
 ### Line-plots
 
 Line plots require 1-d data to be arranged into a specific [cube json format](#cube-json-format)
+Associated maps (to be accessed from the line plot) are stored as global csv maps under world/maps.
+
 See details in the [cube manual](#cube-manual).
 
 ### Country ranking
