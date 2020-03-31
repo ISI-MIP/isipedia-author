@@ -40,7 +40,7 @@ This is ice-cream production in the EU.
 ![Ice-cream production in the EU in 2018](figures/icecreamproduction.vl.png){#fig:icecreamproduction}
 
 
-Another figure of Potsdam temperatures
+Another figure of Potsdam temperatures (Source: [DWD](https://www.dwd.de/DE/leistungen/klimadatendeutschland/klimadatendeutschland.html))
 
 ![Temperature measurements in Potsdam](figures/temp_potsdam.vl.png){#fig:temp_potsdam}
 
