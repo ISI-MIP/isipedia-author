@@ -37,10 +37,10 @@ This is not actually an article about ice-cream, but a demo of available feature
 
 This is ice-cream production in the EU.
 
-![Ice-cream production in the EU in 2018](figures/icecreamproduction.vl.png){#fig:icecreamproduction}
+![Ice-cream production in the EU in 2018 (Source: [Eurostat](http://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-066341_QID_1B1BBC04_UID_-3F171EB0&layout=INDICATORS,C,X,0;DECL,L,Y,0;PRCCODE,B,Z,0;PERIOD,L,Z,1;&zSelection=DS-066341PRCCODE,10521000;DS-066341PERIOD,201752;&rankName1=PRCCODE_1_0_-1_2&rankName2=PERIOD_1_0_0_0&rankName3=INDICATORS_1_2_0_0&rankName4=DECL_1_0_0_1&sortR=ASC_1&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=ROLLING&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23)](figures/icecreamproduction.vl.png){#fig:icecreamproduction}
 
 
-Another figure of Potsdam temperatures
+Another figure of Potsdam temperatures (Source: [DWD](https://www.dwd.de/DE/leistungen/klimadatendeutschland/klimadatendeutschland.html))
 
 ![Temperature measurements in Potsdam](figures/temp_potsdam.vl.png){#fig:temp_potsdam}
 
