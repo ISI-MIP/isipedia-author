@@ -1,9 +1,3 @@
-<!-- 
-TEMPLATE- ISIPedia articles**
-
-This template focuses on content. 
-See example-icecream-EUU.md example to include interactive material.
--->
 ---
 title: Example Icecream Article Title
 author:
