@@ -23,7 +23,7 @@ doi:
 \[2-5 sentence summarizing of the paper, and hyperlink to the paper if
 published.\]
 
-*E.g. This article summarizes the key findings of the peer reviewed paper entitled "[[Human impact parameterizations in global hydrological models improve estimates of monthly discharges and hydrological extremes: a multi-model validation study]{.underline}](https://iopscience.iop.org/article/10.1088/1748-9326/aab96f)", led by Ted Veldkamp and a well renown number of water modeler scientists, published in Environmental Research Letters. The main purpose of this research was to investigate how state-of-the-art global models are able to represent the hydrological performance across major basins throughout the world and was subjected to different levels of human transformations.*
+*E.g. This article summarizes the key findings of the peer reviewed paper entitled "[[Human impact parameterizations in global hydrological models improve estimates of monthly discharges and hydrological extremes: a multi-model validation study]](https://iopscience.iop.org/article/10.1088/1748-9326/aab96f)", led by Ted Veldkamp and a well renown number of water modeler scientists, published in Environmental Research Letters. The main purpose of this research was to investigate how state-of-the-art global models are able to represent the hydrological performance across major basins throughout the world and was subjected to different levels of human transformations.*
 
 ## Key messages
 
@@ -93,22 +93,22 @@ performs.*
 *The measurement of model performance in this study relates to two main
 aspects:*
 
-1.  ***Hydrological extremes** are unusual high- and low- river flows
-    > with low probabilities of occurrence. High flows in this paper are
-    > equivalent to extremely high discharges that are only seeing 1% of
-    > the times based on the historical records of 100 months. These
-    > flows are linked to floods. Low flows are equivalent to extremely
-    > low discharges that are only seen 1% of the times based on the
-    > historical records of 100 months. These flows are associated with
-    > the so-called hydrological droughts. The metric used in this study
-    > to measure the capacity of models to simulate high- and low flows
-    > is an efficiency criteria, whose values can range between -∞ and
-    > +1. Maximum efficiency is achieved when the fitted values match
-    > 1:1 with observed and efficiency metric is equal to +1. Values
-    > below 1 indicate that models are less able to predict high or low
-    > flows.*
+1. ***Hydrological extremes** are unusual high- and low- river flows 
+with low probabilities of occurrence. High flows in this paper are
+equivalent to extremely high discharges that are only seeing 1% of
+the times based on the historical records of 100 months. These
+flows are linked to floods. Low flows are equivalent to extremely
+low discharges that are only seen 1% of the times based on the
+historical records of 100 months. These flows are associated with
+the so-called hydrological droughts. The metric used in this study
+to measure the capacity of models to simulate high- and low flows
+is an efficiency criteria, whose values can range between -∞ and
++1. Maximum efficiency is achieved when the fitted values match
+1:1 with observed and efficiency metric is equal to +1. Values
+below 1 indicate that models are less able to predict high or low
+flows.*
 
-2.  ***Discharge***
+2. ***Discharge***
 
 ## Main findings
 
@@ -216,14 +216,14 @@ area).*
 *We used a modeled monthly discharge (0.5◦ × 0.5◦ spatial resolution)
 for the period 1971--2010 from five state-of-the-art global hydrological
 models:
-[[H08]{.underline}](https://www.isimip.org/impactmodels/details/52/),*
-*[[LPJmL,]{.underline}](https://www.isimip.org/impactmodels/details/80/)
+[[H08]](https://www.isimip.org/impactmodels/details/52/),*
+*[[LPJmL,]](https://www.isimip.org/impactmodels/details/80/)
 ,*
-*[[MATSIRO]{.underline}](https://www.isimip.org/impactmodels/details/91/)
+*[[MATSIRO]](https://www.isimip.org/impactmodels/details/91/)
 ,
-[[PCR-GLOBWB]{.underline}](https://www.isimip.org/impactmodels/details/104/),
+[[PCR-GLOBWB]](https://www.isimip.org/impactmodels/details/104/),
 and
-[[WaterGAP2]{.underline}](https://www.isimip.org/impactmodels/details/134/)
+[[WaterGAP2]](https://www.isimip.org/impactmodels/details/134/)
 . All model simulations were carried out under the modeling framework of
 phase 2a of the Inter-Sectoral Impact Model Intercomparison Project
 (ISIMIP2a: www.isimip.org/protocol/\#isimip2a). For each model, we used
@@ -234,7 +234,7 @@ irrigation and upstream consumptive water abstractions; and (2)NOHIP: a
 characteristics of each of the GHMs, and the methods used to
 parameterize hydrological processes and human impact, can be found in
 [[supplementary table 1 of the published
-paper]{.underline}](https://iopscience.iop.org/1748-9326/13/5/055008/media/ERL_13_055008_SD.pdf).*
+paper]](https://iopscience.iop.org/1748-9326/13/5/055008/media/ERL_13_055008_SD.pdf).*
 
 ## Acknowledgments
 
@@ -243,8 +243,9 @@ etc.
 
 ## References
 
-\[A list of the most important references in the paper.\] Two options
-available:
+\[A list of the most important references in the paper.\] 
+
+Two options available:
 
 1.  Footnote style in-text and reference list at the end
 
