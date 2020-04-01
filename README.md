@@ -4,15 +4,12 @@
 
 - [template.md](template.md) in this directory for a general template focused on text structure.
 - [examples](examples) for more diverse examples.
-- [docs](docs): general documentation, in particular:
-	- [for scientist](docs/for-scientists.md) : general author guidelines
-	- [technical guidelines](docs/technical-guidelines.md) : how to prepare data and figures
 - [data](data): country masks (for testing)
-- [authorscript.template.py](authorscript.template.py): author script template
+- [authorscript.py](authorscript.py): author script template
 
-## Disclaimer
+## About the template
 
-This template is intended to provide authors with a reference to draft
+The [template](template.md) is intended to provide authors with a reference to draft
 their ISIpedia articles, both in terms of structure and suggested texts
 as well as to prepare the graphical materials. We encourage authors
 planning to write text articles to contact the Editorial Team in the
