@@ -1,5 +1,5 @@
 ---
-title: Example Icecream Article Title
+title: Example Article Title
 author:
 - name: Some One
   affiliation: 1
@@ -10,7 +10,6 @@ institution:
 - Another Institute, Berlin, Germany
 area: world
 studytype: future-projections OR detection-attribution OR model-evaluation **\[pick one\]**
-indicator: example-icecream
 topics:
 - water
 - biodiversity
