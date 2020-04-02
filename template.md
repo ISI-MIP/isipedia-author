@@ -127,9 +127,9 @@ the total global/country land area is projected to be affected by at
 least one flood in 2050 (xx that of today's world). Under the RCP6.0
 scenario the global/country land area affected by at least one flood per
 year will reach x% of global land area (xx that of today's world).
-
+>
 > **Figure showing the land area affected by floods**
-
+>
 > Today the percentage of the population exposed to landslides annually
 accounts for x% of the world population (x million people). In the
 RCP2.6 scenario this share will increase xx with respect to the
@@ -138,7 +138,7 @@ the global population). The largest increase, however, occurs, in the
 RCP6.0 scenario, where the fraction of the population exposed will
 multiply by a factor of x (reaching x million people or x% of the global
 population).
-
+>
 > **Figure showing the population affected by landslides**
 
 
@@ -159,7 +159,7 @@ Asia, the lack of data impedes evaluating the performance of
 hydrological models. Given that some of these areas are also among the
 most populated ones, it becomes crucial to improve the data collection
 and sharing programs in these parts of the world.
-
+>
 > ### Limited understanding on how each human impact parameters influences model performance
 >
 > Despite the fact that including human impact parameters has a positive
