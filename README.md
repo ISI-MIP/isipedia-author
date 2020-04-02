@@ -2,7 +2,7 @@
 
 ## Overview
 
-- [template.md](template.md) in this directory for a general template focused on text structure.
+- [template.md](template.md) for a general template focused on text structure.
 - [examples](examples) for more diverse examples.
 - [data](data): country masks (for testing)
 - [authorscript.py](authorscript.py): author script template
