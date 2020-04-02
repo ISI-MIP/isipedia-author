@@ -18,8 +18,8 @@ input_data = load_input_data()
 
 for v in variables:
     country_code = v[2:] # remove leading `m_`
-    mask = ds[v][:] > 0  # for a binary mask
-    country_data = ... agreggate input data on country mask
+    mask = ds[v][:] > 0  # for a binary mask (note a fractional mask is also provided)
+    country_data = ... # agreggate input data on country mask
 
     output_dir = os.path.join(o.out_dir, country_code)
     output_file = os.path.join(output_dir, 'data.json')
