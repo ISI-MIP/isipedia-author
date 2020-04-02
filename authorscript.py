@@ -1,29 +1,43 @@
 import os
 import json
+import numpy as np
 import netCDF4 as nc
 import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument('masks') # countrymasks.nc
-parser.add_argument('--out-dir', default='out')
+# countrymasks.nc or countrymasks_fractional.nc
+COUNTRYMASKS = 'data/countrymasks.nc'
 
-o = parser.parse_args()
+# output directory 
+OUTPUTDIR = 'output'
 
-ds = nc.Dataset(o.masks)
-
-variables = [v for v in ds.variables if v.startswith('m_')]
+# read countrymasks.nc or countrymasks_fractional.nc
+ds = nc.Dataset(COUNTRYMASKS)
 
 # load user-provided or ISIMIP-input data
-input_data = load_input_data()
+lon = ds['lon'][:]
+lat = ds['lat'][:]
+dummydata1, dummydata2 = np.meshgrid(lon, lat)
 
-for v in variables:
+for v in ds.variables:
+  
+    # do not loop over coordinate variables -- country mask variables start with 'm_'
+    if not v.startswith('m_'):
+        continue  
+    
+    # aggregate data based on country mask
     country_code = v[2:] # remove leading `m_`
     mask = ds[v][:] > 0  # for a binary mask (note a fractional mask is also provided)
-    country_data = ... # agreggate input data on country mask
-
-    output_dir = os.path.join(o.out_dir, country_code)
+    
+    # agreggate input data on country mask
+    # TODO: provide proper example with area weighting
+    #       possibly spatial_average function in isipedia library
+    dummy1 = dummydata1[mask].mean()  
+    dummy2 = dummydata2[mask].mean()
+    country_data = {'dummy1': dummy1, 'dummy2': dummy2}
+                      
+    # create country-specific output directory and save as 'data.json'
+    output_dir = os.path.join(OUTPUTDIR, country_code)
     output_file = os.path.join(output_dir, 'data.json')
-
     os.makedirs(output_dir, exist_ok=True)
     json.dump(country_data, open(output_file, 'w'))
 
