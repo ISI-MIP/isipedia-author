@@ -14,6 +14,7 @@ OUTPUTDIR = 'output'
 ds = nc.Dataset(COUNTRYMASKS)
 
 # load user-provided or ISIMIP-input data
+# ... here a dummy example
 lon = ds['lon'][:]
 lat = ds['lat'][:]
 dummydata1, dummydata2 = np.meshgrid(lon, lat)
@@ -31,9 +32,10 @@ for v in ds.variables:
     # agreggate input data on country mask
     # TODO: provide proper example with area weighting
     #       possibly spatial_average function in isipedia library
+    # ... here a dummy example
     dummy1 = dummydata1[mask].mean()  
     dummy2 = dummydata2[mask].mean()
-    country_data = {'dummy1': dummy1, 'dummy2': dummy2}
+    country_data = {'lon': dummy1, 'lat': dummy2}
                       
     # create country-specific output directory and save as 'data.json'
     output_dir = os.path.join(OUTPUTDIR, country_code)
