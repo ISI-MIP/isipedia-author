@@ -5,20 +5,13 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('masks') # countrymasks.nc
-parser.add_argument('--country') # restrict calculations for one country
 parser.add_argument('--out-dir', default='out')
 
 o = parser.parse_args()
 
 ds = nc.Dataset(o.masks)
 
-if o.country:
-  variable = 'm_'+o.country
-  if variable not in ds.variables:
-      raise ValueError(o.country + ' is not present in ' + o.masks)
-  variables = [variable]
-else:
-  variables = [v for v in ds.variables if v.startswith('m_')]
+variables = [v for v in ds.variables if v.startswith('m_')]
 
 # load user-provided or ISIMIP-input data
 input_data = load_input_data()
