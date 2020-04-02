@@ -22,7 +22,7 @@ prepare a text article, we recommend the author to use this template,
 although its use is NOT compulsory. Authors experienced in science
 communication are encouraged to develop free-format articles, under the
 premises that: 1) the resulting text complies with the [guidelines for
-authors](https://demo.isipedia.org/for-authors/) as described in the
+authors](https://demo.isipedia.org/for-scientists/) as described in the
 ISIpedia portal; and 2) the authors carefully read and follow the
 instructions on how to prepare the graphical materials ( see Section 2).
 
