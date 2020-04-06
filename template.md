@@ -1,5 +1,6 @@
 ---
 title: Example Article Title
+reference: https://doi.org/DOI-FOR-THE-RELATED-PAPER
 author:
 - name: Some One
   affiliation: 1
@@ -14,7 +15,6 @@ topics:
 - water
 - biodiversity
 published: 
-doi:
 ---
 
 ## Brief summary
