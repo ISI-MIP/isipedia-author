@@ -54,7 +54,9 @@ ISIpedia portal; and
 ISIPedia articles can be divided into two broad categories: 
 1. individual contributions e.g. country-based studies, and 
 2. global contributions with gridded information that can be further breakdown
-into national reports. Authors aiming to prepare the latest type of
+into national reports. 
+
+Authors aiming to prepare the latest type of
 articles should bear in mind that a given number of sections will remain
 the same across all national reports, namely sections on (see [template.md](template.md)
 for details):
