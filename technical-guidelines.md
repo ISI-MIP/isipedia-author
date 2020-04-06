@@ -1,4 +1,4 @@
-# Technical guidelines to prepare data and figures
+# Technical guidelines to prepare data, figures and markdown text
 
 Data and code requirements for authors depend on the type of contribution to ISIpedia, and will be determined based on exchanges with the editorial team. The bottom line is, the authors need to provide us with all the necessary material to produce the figures and present quantitative data in the reports.
 
