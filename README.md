@@ -13,6 +13,7 @@ Please indicate metadata (title, author) in the header of your article, such as:
 ```
 ---
 title: Example Article Title
+reference: https://doi.org/10.1029/2019EF001181
 author:
 - name: Some One
   affiliation: 1
