@@ -3,6 +3,7 @@
 ## Overview
 
 - [template.md](template.md) for a general template focused on text structure.
+- [technical-guidelines.md](technical-guidelines.md)
 - [examples](examples) for more diverse examples.
 - [data](data): country masks (for testing)
 - [authorscript.py](authorscript.py): author script template
