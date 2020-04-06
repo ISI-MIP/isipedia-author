@@ -7,6 +7,28 @@
 - [data](data): country masks (for testing)
 - [authorscript.py](authorscript.py): author script template
 
+## Metadata
+
+Please indicate metadata (title, author) in the header of your article, such as:
+```
+---
+title: Example Article Title
+author:
+- name: Some One
+  affiliation: 1
+- name: Some Two
+  affiliation: 2
+institution:
+- Institute for Advanced Studies, Potsdam, Germany
+- Another Institute, Berlin, Germany
+area: world
+studytype: future-projections
+topics:
+- water
+- something-else
+---
+```
+
 ## About the template
 
 The [template](template.md) is intended to provide authors with a reference to draft
