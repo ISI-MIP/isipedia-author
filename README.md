@@ -61,7 +61,8 @@ for details):
 1. How to interpret the results; 
 2. limitations and knowledge gaps; 
 3. data and methods, and 
-4. references. 
+4. references.
+
 Only the key messages section, as well as the main findings, will be adjusted to each
 country and global report.
 
