@@ -80,7 +80,7 @@ and **glossary links** to be included as hyperlink as
 ```
 
 We can also have HTML code as well as javascript code for more advanced, interactive content.
-See the [example ice cream article](https://demo.isipedia.org/report/example-ice-cream-article-euu/) and its markdown source for a demonstration of these features.
+See the [example ice cream article](https://demo.isipedia.org/report/example-ice-cream-article-euu/) and its [markdown source](examples/ice-cream) for a demonstration of these features.
 
 ## Inject data into the articles
 
