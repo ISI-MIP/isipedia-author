@@ -83,7 +83,7 @@ We can also have HTML code as well as javascript code for more advanced, interac
 
 ## Inject data into the articles
 
-We use `jinja2` templates with `{{ ... }}` and `{% if ... %} ... {% else %} ... {% endif %}` syntax if we need logic in the templates, and to connect country-specific data and figures with the articles. This should be used with caution. More information in the [technical guidelines](technical-guidelines.md#technical-template-jinja2-to-insert-country-dependent-data-in-the-text)).
+We use `jinja2` templates with `{{ ... }}` and `{% if ... %} ... {% else %} ... {% endif %}` syntax if we need logic in the templates, and to connect country-specific data and figures with the articles. This should be used with caution. More information in the [technical guidelines](technical-guidelines.md#technical-template-jinja2-to-insert-country-dependent-data-in-the-text).
 
 
 ## About the template
