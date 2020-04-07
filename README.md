@@ -4,7 +4,7 @@
 
 - [template.md](template.md) for a general template focused on text structure.
 - [technical-guidelines.md](technical-guidelines.md): technical guidelines to prepare data, figures and markdown text
-- [examples](examples) for more diverse examples.
+- [examples](examples) for more diverse examples ([see result here](https://demo.isipedia.org/report/example-ice-cream-article-euu/))
 - [data](data): country masks (for testing)
 - [authorscript.py](authorscript.py): author script template
 
@@ -80,6 +80,7 @@ and **glossary links** to be included as hyperlink as
 ```
 
 We can also have HTML code as well as javascript code for more advanced, interactive content.
+See the [example ice cream article](https://demo.isipedia.org/report/example-ice-cream-article-euu/) and its markdown source for a demonstration of these features.
 
 ## Inject data into the articles
 
