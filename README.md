@@ -53,8 +53,24 @@ Below an overview of the most important conventions:
 `code`
 
 > quote
+
+Item list:
+- first item
+- second item
+
+Numbered list:
+1. One
+2. Two
 ```
-Additionally we support `bibtex` references via such as `[@Gerten_2014_Cross; @Prudhomme_2013_f5wdwd; @Doell_2015_f8fjrd; @Kuzyakov_2019_gf43bp]` and `glossary links` to be included as hyperlink as `[climate models](/glossary/#climate-models)`.
+Additionally we support **bibtex references**:
+```markdown
+
+[@Gerten_2014_Cross; @Prudhomme_2013_f5wdwd; @Doell_2015_f8fjrd; @Kuzyakov_2019_gf43bp]
+``` 
+and **glossary links** to be included as hyperlink as 
+```markdown
+[climate models](/glossary/#climate-models)
+```
 
 ## Inject data into the articles
 
