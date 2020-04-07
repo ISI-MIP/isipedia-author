@@ -31,6 +31,36 @@ topics:
 ---
 ```
 
+## Markdown syntax
+
+The template use [pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
+That is simple text with conventions for headings, hyperlinks, references and so on.
+
+Below an overview of the most important conventions:
+
+```markdown
+
+## Section title
+
+### Subsection
+
+[link text](actual-link-address)
+
+![caption](figures/image.png){#fig:ref}
+
+*italic* **bold**
+
+`code`
+
+> quote
+```
+Additionally we support `bibtex` references via such as `[@Gerten_2014_Cross; @Prudhomme_2013_f5wdwd; @Doell_2015_f8fjrd; @Kuzyakov_2019_gf43bp]` and `glossary links` to be included as hyperlink as `[climate models](/glossary/#climate-models)`.
+
+## Inject data into the articles
+
+We use `jinja2` templates with `{{ ... }}` and `{% if ... %} ... {% else %} ... {% endif %}` syntax if we need logic in the templates, and to connect country-specific data and figures with the articles. This should be used with caution. More information in the [technical guidelines](technical-guidelines.md#technical-template-jinja2-to-insert-country-dependent-data-in-the-text)).
+
+
 ## About the template
 
 The [template](template.md) is intended to provide authors with a reference to draft
