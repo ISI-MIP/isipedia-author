@@ -1,12 +1,13 @@
 # Author template directory
 
-## Overview
+## Repository overview
 
 - [template.md](template.md) for a general template focused on text structure.
 - [technical-guidelines.md](technical-guidelines.md): technical guidelines to prepare data, figures and markdown text
-- [examples](examples) for more diverse examples ([see result here](https://demo.isipedia.org/report/example-ice-cream-article-euu/))
-- [data](data): country masks (for testing)
+- [examples](examples) for more diverse examples ([icecream article](https://demo.isipedia.org/report/example-ice-cream-article-euu/))
 - [authorscript.py](authorscript.py): author script template
+- [data](data): country masks (for testing when developing `authorscript.py`)
+
 
 ## Metadata
 
