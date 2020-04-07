@@ -52,6 +52,13 @@ Below an overview of the most important conventions:
 
 `code`
 
+    Code block
+    can be indented 
+    using 4 spaces 
+    
+    ```Or 3-quoted like this even 
+    without indentation```
+
 > quote
 
 Item list:
