@@ -11,9 +11,19 @@ institution:
 - Another Institute, Berlin, Germany
 area: world
 studytype: future-projections OR detection-attribution OR model-evaluation **\[pick one\]**
-topics:
-- water
+topics **\[pick one or more\]**:
+- agriculture
 - biodiversity
+- coastal-infrastructure
+- coastal-systems
+- energy
+- extreme-events
+- fisheries
+- forests
+- health
+- lakes
+- permafrost
+- water
 published: 
 ---
 
